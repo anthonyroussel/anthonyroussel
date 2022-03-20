@@ -1,4 +1,8 @@
-### Hi there 👋
+<p align="center">
+  <a href="https://github.com/anthonyroussel/">
+    <img src="/github-metrics.svg" />
+  </a>
+</p>
 
 <!--
 **anthonyroussel/anthonyroussel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
