@@ -19,6 +19,9 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
+          # Base
+          base: header, activity, community, repositories #, metadata
+
           # ISO Calendar plugin
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
