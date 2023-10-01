@@ -32,3 +32,8 @@ jobs:
 
           # Lines plugin
           plugin_lines: yes
+
+          # Notable plugin
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_types: commit, pull_request, issue
