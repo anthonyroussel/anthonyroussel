@@ -1,4 +1,5 @@
 name: Metrics
+
 on:
   # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
@@ -12,6 +13,8 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    environment:
+      name: production
     permissions:
       contents: write
     steps:
