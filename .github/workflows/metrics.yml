@@ -32,6 +32,8 @@ jobs:
           # Languages plugin
           plugin_languages: yes
           plugin_languages_details: percentage
+          plugin_languages_threshold: 2%
+          commits_authoring: anthony@roussel.dev
 
           # Lines plugin
           plugin_lines: yes
