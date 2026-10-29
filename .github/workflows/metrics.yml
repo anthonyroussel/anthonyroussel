@@ -10,6 +10,9 @@ on:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 
+# Deny all token permissions by default; jobs grant only what they need
+permissions: {}
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
